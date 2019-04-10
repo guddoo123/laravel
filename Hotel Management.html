@@ -1,0 +1,726 @@
+<html>
+
+<head>
+
+    <title>FOOD ORDERING SYSTEM</title>
+   
+ <style>
+       
+ #logo{
+           
+ width: 10px;
+            
+      
+  }
+  
+  h
+        {   
+     
+       padding-left: 40px;
+     
+       font-family: sans-serif;
+ 
+           font-size: 35px;
+       
+     color: gray;
+     
+       background-attachment: inherit;
+      
+  }
+    hr
+      
+  {
+       
+     color: gray;
+    
+    }
+  
+  a
+        {
+     
+       color: gray;
+          
+  text-decoration: none;
+           
+ padding-left: 70px;
+            
+padding-right: 65px;
+     
+   }
+   
+ a:hover
+   
+     {
+      
+      font-family: inherit;
+       
+     color: grey;
+    
+        text-decoration: none;
+   
+     }
+   
+ a:visited
+     
+   {
+           
+ font-family: inherit;
+     
+ color: grey;
+            
+text-decoration: none;
+        
+}
+body
+      
+  {
+            
+height: 550px;
+           
+ height: 1100px;
+        
+}
+    h1
+        
+{
+            
+font-size: 20px;
+            
+font-family:inherit;
+            
+padding-left: 35px;
+           
+ padding-top: 15px;
+        
+}
+    h2
+       
+ {
+           
+ font-size: 35px;
+            
+font-family: inherit;
+            
+padding-left: 40px;
+            
+color: #c68c53;
+            
+        
+        
+}
+   
+ p
+       
+ {
+            
+font-size: 28px;
+            
+            
+        
+}
+        
+#check_avability
+{
+            
+border-radius: 4px;
+            
+background-color:#cc9966;
+            
+height: 60px;
+            
+            
+       
+ }
+        
+#search_button
+{
+            
+border-radius: 4px;
+            
+background-color:#8A6D43;
+            
+height: 40px;
+            
+width: 100px;
+            
+text-align: center;
+            
+color:white;
+            
+cursor: pointer;
+            
+                
+        }
+       
+ input{
+            border-radius: 4px;
+          
+  height:30px;
+           
+ width: 150px;
+            
+background-color: #ccc;
+            
+        
+}
+        
+#td{
+           
+ padding: 10px;
+        
+}
+        
+select{
+            
+height: 30px;
+            
+width: 150px;
+           
+ border-radius: 4px;
+           
+ background-color: #ccc;
+           
+ border: 2px solid #ccc;
+            
+cursor: pointer;
+        }
+        
+#discrption{
+            
+width: auto;
+            
+height: auto;
+           
+ background-color: wheat;
+            
+border-radius: 4px;
+            
+padding-left: 20px;
+            
+padding-right: 20px;
+            
+padding-top: 2px;
+           
+ padding-bottom: 2px;
+        }
+        
+       
+ #lower_navbar{
+           
+ background-color:#262626;
+            
+border-radius: 4px;
+            
+height: 450px;
+            
+width: auto;
+        
+}
+        
+       
+ #hotel
+       
+ {
+            
+background-color: #262626;
+            
+color: white;
+            
+width: 250px;
+            
+height: 360px;
+           
+ margin-left: 50px;
+            
+margin-top: 20px;
+           
+position: absolute;
+       
+ }
+        #destination
+        
+{
+            background-color: #262626;
+            
+color: white;
+            
+width: 250px;
+           
+ height: 360px;
+            
+margin-left: 350px;
+           
+ margin-top: 20px;
+           
+position: absolute;
+        
+}
+#LDC
+       
+ {
+           
+ background-color: #262626;
+            
+color: white;
+           
+ width: 250px;
+           
+ height: 360px;
+            
+margin-left: 650px;
+            
+margin-top: 20px;
+           
+position: absolute;
+        
+}
+#contact
+        
+{
+            
+background-color: #262626;
+            
+color: white;
+            
+width: 270px;
+            
+height: 360px;
+            
+margin-left: 950px;
+            
+margin-top: 20px;
+           
+position: absolute;
+        
+}
+       
+ #Heading1
+        
+{
+            color: #c68c53;
+            
+font-size: 20px;
+            
+font-family: Univers;
+        
+}
+        #Sub
+       
+ {
+            
+color: #bfbfbf;
+            
+font-size: 22px;
+           
+ font-family: Futura;
+     
+   }
+        
+#Sub1
+        
+{
+            
+color: #c68c53;
+            
+font-size:18px;
+            
+       
+ }
+        
+#Facebook
+        
+{
+           
+           
+ width: 25px;
+            
+height: 25px;
+            
+float: right;
+        
+}
+       
+ #Instagram
+        
+{
+           
+           
+ width: 25px;
+            
+height: 25px;
+            
+float: right;
+           
+        
+}
+        #Linkedin
+       
+ {
+            
+            
+width: 25px;
+           
+ height: 25px;
+            
+float: right;
+    
+       
+ }
+        #wraper
+       
+ {
+            
+           
+            
+background-color: black;
+           
+ height: 0px;
+          
+  width: 0px;
+          
+  float: left;
+        
+      
+  }
+        #PatternW
+        
+{
+            
+width: 50px;
+            
+height: 30px;
+        
+}
+        #email
+  
+      
+{
+           
+ color: #c68c53;
+      
+      font-size:18px;
+      
+      text-align: left;
+      
+  }
+  
+      #Bookus
+      
+  {
+       
+     width: 1080px;
+         
+   height: 40px;
+            
+margin-left: 80px;
+          
+  margin-right: 80px;
+          
+  background-color: #404040;
+            
+}
+       
+ #Bookus_Title
+     
+   {
+           
+ font-size: 30px;
+           
+ color: #f2f2f2;
+           
+ text-align: center;
+           
+ font-family: Futura;
+    
+    }
+     
+   #Bookus_Details
+      
+  {
+          
+  width: 1080px;
+   
+         height: 420px;
+       
+     margin-left: 80px;
+           
+ margin-right: 80px; 
+          
+  background-color: #262626;
+         
+}
+        #Bookus_d1
+        
+{
+            margin-left: 50px;
+   
+         margin-top: 10px;
+           
+ margin-bottom: 10px;
+            
+width: 420px;
+          
+  height: 400px;
+           
+ background-color: #262626;
+          
+  position: absolute;
+            
+            
+       
+ }
+        
+#Bookus_d2
+     
+   {
+            
+margin-left: 600px;
+            
+margin-top: 10px;
+         
+   margin-bottom: 10px;
+            
+width: 420px;
+            
+height: 400px;
+      
+      background-color: #262626;
+
+            position: absolute;
+  
+      }
+      
+  #Sub2
+       
+ {
+            
+color: #c68c53;
+           
+ font-size:16px;
+            
+text-align: right;
+        
+}
+       
+ #Copyright
+      
+  {
+            
+color: #bfbfbf;
+           
+ font-size: 16px;
+           
+ font-family: Futura;
+           
+ text-align: left;
+       
+ }
+    
+   hr
+       
+ {
+          
+  color: #c68c53;
+            
+ 
+       }
+   
+ </style>
+   
+ </head>
+    
+<body background="img2.jpg">
+      
+  <div id="wrapper">
+           
+      
+      <a href="https://www.facebook.com/aromarestaurantcork/">
+<img id="Facebook"src="Pics/Facebook_rome.png" ></a>
+    
+        <a href="https://www.instagram.com/a.romalifestylehotel/">
+<img id="Instagram"src="Pics/Instagram_rome.png"></a>
+            
+<a href="https://www.linkedin.com">
+<img id="Linkedin"src="Pics/LinkedIn_rome.png"></a>
+       
+ </div>
+      
+  <div id="logo">
+           
+ <img src="Pics/Logo.jpg" style="padding-left:25px;height: 70px;width: 100px;">
+<br>
+<img src="Pics/Pattern.jpg" style="padding-left:36px;height:9px;width:80px">
+</div><br>
+        
+        
+<hr>
+       
+ <a href="#">Book Tables</a>
+       
+ <a href="#">Deals</a>
+      
+  <a href="#">Restaurents</a>
+ 
+      
+ <a href="#">Offers</a>
+        
+<a href="Services.html">Services</a>
+       
+ <a href="Gallery.html">Time Duration</a><hr>
+
+<img src="7.jpeg" style="width:1490px;height:500px;">
+        
+<hr>
+      
+  <div id="check_avability">
+            
+<table>
+                
+<tr>
+                    
+<td id="td" style="padding-left:160px;">
+<input type="date" placeholder="check in date"></td>
+                  
+   <td id="td"><input type="date" placeholder="check out date"></td>
+              
+      <td id="td"><select>
+                           
+     <option>1 Adult</option>
+                        
+        <option>2 Adult</option>
+         
+                       <option>3 Adults</option>
+                        
+</select>
+</td>
+                    
+<td id="td"><select>
+                           
+     <option>0 children</option>
+           
+                     <option>1 children</option>
+  
+                              <option>2 children</option>
+     
+                   </select></td>
+                   
+ <td id="td"><select>
+                                
+<option>Vacant tables</option>
+                                
+<option>Food menu</option>
+                                
+<option>Exclusive offers</option>
+                       
+ </select></td>
+                   
+ <td id="td">
+                       
+ <div id="search_button" onclick="window.open('rooms.html')">
+<font style="marging-top:4px;">Check Avability</font></div>
+     
+    </td>
+        
+   </tr>
+            
+</table>
+        
+</div>
+<hr>
+       
+      
+<img src="Pics/Pattern.jpg" style="padding-left:38px;height:15px;width:340px">
+        
+<h2>Come and Discover Food!</h2>
+      
+  <div id="discrption">
+        
+<p><font size="15">
+<img id="PatternW"src="Pics/PatternW.png">
+<br>O</font>nline food ordering is the process of food delivery or takeout from a local restaurants or food cooperative through a web page or app. Much like ordering consumer goods online, many of these services allow customers to keep accounts with them in order to make frequent ordering convenient. A customer will search for a favorite restaurant, usually filtered via type of cuisine and choose from available items, and choose delivery or pick-up. Payment can be amongst others either by credit card, PayPal or cash, with the restaurant returning a percentage to the online food company.
+In May 2015, Eric Kim, a contributing writer for TechCrunch and CEO of Rushorder, reported that "of the $70 billion [takeout and delivery market], only about $9 billion (roughly 13 percent) is online."[1][2] However, in China, online food delivery services are the one of the fastest and most frequently used services, especially in tier 1 and 2 cities, growing 23% in 2017.[.</p>
+        </div>
+        
+ <div id="Bookus"><p id="Bookus_Title">BOOK  HERE  FOR  BEST  RATES  &  EXCLUSIVE  OFFERS</p></div>
+        <div id="Bookus_Details">
+            <div id="Bookus_d1">
+                
+<p id="Sub">:- Book directly for best prices.<br>
+                :- Welcome for drinks.<br>
+                :- Stay 3+ meals for FREE .<br>
+                :- Book now, pay later, no deposit.<br>
+                :- Recieve free cancelation upto 24 hours.<br>
+                :- Free call and email confirmation.<br>
+                :- Hygiene food.<br>
+                :- All types of food available.<br>
+                :- Located just 2o minutes.<br>
+                :- Quick Deleivery.<br>
+                :- Best facilities.<br>
+                :- Shuttle bus service to  Rome city center
+                </p>
+            </div>
+               
+ <div id="Bookus_d2">
+                    <p id="Sub">
+                        Mini Bar<br>
+                        Video Game Player<br>
+                        Banquet Facilities<br>
+                        Doctor on Call<br>
+                        Library<br>
+                        Housekeeping<br>
+                        Disabled Guest Facility<br>
+                        Garden<br>
+                        Pool/Snooker Table<br>
+                        Outdoor Games<br>
+                        Butler Service<br>
+                        Laundry
+                 </p>
+            </div>
+        </div>
+        <br>
+        
+        <div id="lower_navbar">
+            <div id="hotel">
+            <p id="Heading1">Hotel</p>
+            <p id="Sub">  A.roma Lifestyle <br>Relais Sant'Uffizio<br>Relais Villa Monte Solare<br>Villa Ortaglia Florence<br>Palais e China Hotel<br>Fleur de China Hotel<br>Palazzo Venart Hotel </p><br><br>
+                <p id="Copyright">All rights reserved 2017 </p>
+            
+            
+            </div>
+            <div id="destination">
+          
+  <p id="Heading1">Destination</p>
+          
+  <p id="Sub"> Rome, Italy<br>Piedmont, Italy <br>Umbria ,Italy<br> Venice, Italy<br>Florence, Italy<br>Taipei, Taiwan<br>Sun Moon Lake, Taiwan   </p>
+            
+            
+            </div>
+            <div id="LDC">
+                <p id="Heading1">LDC</p>
+                    <p id="Sub">JOAS<br>About<br>News<br>Carrer</p>
+            </div>
+            
+         
+   <div id="contact">
+                <p id="Heading1">Book & Contact</p>
+                    
+<p id="Sub1">  Book Now   </p>
+                       
+ <p id="Sub">Tel. +39 0687 800168<br>Fax. +39 0687 811813</p>
+           
+     <p id="Sub1"><a id="email" href="https://www.google.com/gmail/">
+<br>info.aroma@ldchotels.com</a></p>
+                       
+ <p id="Sub">JOAS<br>Giorgio Zoiga 59 00264<br>Rome, Italy </p><br>
+              
+  <p id="Sub2">Privacy Policy</p>
+           
+ </div>
+        
+</div>
+ 
+
+</body>    
+  
+ 
+</html>
